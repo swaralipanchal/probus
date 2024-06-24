@@ -1,0 +1,643 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.centered-content{
+    width: 100%;
+  
+    background-color: #000000;
+    /* height: auto; */
+}
+.bg-gradiant {
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(45deg,#ed3a85,#933aed); */
+}
+
+/*  <div class="section-one ">
+
+      <div class="main">
+
+        <div class="content">
+          <h1>Discover the <br>Beauty of the <br>Metaverse world</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br> Consequatur sit fugiat commodi laudantium <br>
+            possimus ab sint. Similique deserunt <br>
+          </p>
+          <button class="btn">Read More!</button> <button class="btn">Play Now!</button>
+        </div>
+
+        <div class="heroBanner-img">
+          <img src="images/img.lady (3).png" class="vr-lady" alt="img not found">
+          <img src="images/hero.1.png" class="comp" alt="img not found">
+          <img src="images/hero.2.png" class="linkedin" alt="img not found">
+          <img src="images/hero.3.png" class="three-emojis" alt="img not found">
+          <img src="images/hero.4.png" class="focus" alt="img not found">
+          <img src="images/hero.5.png" class="heart" alt="img not found">
+          <img src="images/hero.6.png" class="thumb" alt="img not found">
+          <img src="images/hero.7.png" class="twitter-X" alt="img not found">
+        </div>
+
+      
+      </div>
+    </div> */
+.section-one {
+    width: 100%;
+    /* padding: 20px; */
+
+    /* background-color:red; */
+    /* display: flex;
+   justify-content: center; */
+    background-color: #000000;
+}
+
+.main {
+    height: auto;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 1200px;
+    /* gap: 40px; */
+    margin: auto;
+    /* background-color: #000000; */
+}
+
+.heroBanner-img {
+    margin-top: 20px;
+    position: relative;
+}
+
+.heroBanner-img .vr-lady {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: -50px;
+    right: 40px;
+}
+
+.heroBanner-img .comp,
+.heroBanner-img .linkedin,
+.heroBanner-img .three-emojis,
+.heroBanner-img .instagram,
+.heroBanner-img .heart,
+.heroBanner-img .thumb,
+.heroBanner-img .twitter-X {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+.heroBanner-img .linkedin {
+    top: 196px;
+    width: 70px;
+    height: 70px;
+    right: 400px;
+}
+
+.heroBanner-img .comp {
+    width: 67px;
+    height: 67px;
+    top: 257px;
+    right: 150px;
+}
+
+.heroBanner-img .twitter-X {
+    width: 60px;
+    height: 60px;
+    top: 148px;
+    right: 75px;
+}
+
+.heroBanner-img .instagram {
+    width: 64px;
+    height: 64px;
+    top: -5px;
+    right: 336px;
+}
+
+.heroBanner-img .heart {
+    width: 40px;
+    height: 40px;
+    top: 65px;
+    right: 110px;
+}
+
+.heroBanner-img .thumb {
+    width: 50px;
+    height: 50px;
+    top: 27px;
+    right: 70px;
+}
+
+.heroBanner-img .three-emojis {
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    right: 80px;
+    transform: rotate(21deg);
+}
+
+.main img {
+    width: 100%;
+    height: 500px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #FFFFFF;
+}
+
+.content h1 {
+    font-size: 3.3rem;
+    max-width: 550px;
+}
+
+.content h1 span {
+    color: #ED3A85;
+
+}
+
+.content p {
+    font-size: 18px;
+    max-width: 550px;
+}
+
+.btn {
+    background: linear-gradient(to right, #933AED99 5%, #ED3A85 60%, #ED3A85 80%, #ED3A85 80%);
+    padding: 1em 2.1em 1.1em;
+    border-radius: 4px;
+    margin: 8px;
+    border: none;
+    color: #FFFFFF;
+    /* background-color: white; */
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+.bg-gradiant text {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #000000, #ed3a85);
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    background-color: red;
+}
+
+.about-service h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.4rem;
+    padding: 20px 40px;
+}
+
+.about-service h1 {
+    font-size: 2.5rem;
+    padding: 20px 40px;
+    padding-top: 20px;
+}
+
+.service-text {
+    font-size: 1.5rem;
+}
+
+.heading {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(210px, auto));
+    grid-gap: 1rem;
+    align-items: center;
+
+}
+
+.boxes {
+    /* margin-top: 5%; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    justify-content: center;
+   max-width: 1200px;
+   margin: 0 auto;
+    background-color: #000000;
+    gap: 40px;
+}
+.boxsame{
+    padding: 20px;
+    background-color: #ED3A85;
+    width: 230px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   text-align: justify; /* Justify text */
+   color: #ffff;
+}
+.boxsame p{
+    display: inline-block;
+    text-underline-offset: 10px; 
+    width: 150px; 
+  margin: 0; 
+
+}
+.boxsame button{
+    /* padding: 10px; */
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    color: #ffff;
+}
+.boxes .purple{
+   background-color: #933AED99;
+}
+/* .box1 {
+    padding-left: 10%;
+
+}
+
+.box3 {
+    padding-right: 10%;
+
+} */
+
+/* .bg-gradiant box {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #933aed, #000000);
+} */
+
+/* .reason h2 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    padding: 4px 20px;
+    font-size: 1.8rem;
+}
+
+.reason h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 4px 20px;
+    font-size: 2.2rem;
+}
+
+#b2 {
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.reabox1 {
+    padding-left: 10%;
+    text-align: center;
+}
+
+.reabox3 {
+    padding-right: 10%;
+    text-align: center;
+}
+
+.reabox2 {
+    text-align: center;
+} */
+.portfolio-section{
+   max-width: 850px;
+   padding: 10px;
+   margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.imgset{
+  justify-content: flex-end;
+    display: flex;
+  
+}
+.imgset .imgs {
+    /* background-color: #ed3a859b; */
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+.imgset .imgs img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgset2 .imgs:nth-child(1){
+  width: 300px;
+}
+.imgset2 .imgs:nth-child(2){
+  width: 210px;
+}
+.imgset3 .imgs:nth-child(3){
+    width: 210px;
+}
+.imgset3 .imgs:nth-child(2){
+    width: 350px;
+}
+.imgset3 .imgs:nth-child(1){
+    width: 220px;
+}
+@media screen and (max-width:900px) {
+    .portfolio-section{
+        max-width: 800px;
+        padding: 10px;
+        margin: 0 auto;
+         display: flex;
+         flex-direction: column;
+         /* justify-content: center; */
+         /* background-color: #2d2931; */
+     }
+     .imgset{
+       justify-content: flex-end;
+         display: flex;
+       
+     }
+     .imgset .imgs {
+         background-color: #ed3a859b;
+         width: 100px;
+         height: 140px;
+         margin: 6px;
+     }
+     .imgset2 .imgs:nth-child(1){
+       width: 200px;
+     }
+     .imgset2 .imgs:nth-child(2){
+       width: 150px;
+     }
+     .imgset3 .imgs:nth-child(3){
+         width: 170px;
+     }
+     .imgset3 .imgs:nth-child(2){
+         width: 240px;
+     }
+     .imgset3 .imgs:nth-child(1){
+         width: 150px;
+     }
+    
+}
+@media screen and (max-width:620px) {
+    .portfolio-section{
+        padding: 5px;
+        margin: 0 auto;
+     }
+     .imgset{
+       justify-content: flex-end;
+         display: flex;
+       
+     }
+     .imgset .imgs {
+         /* background-color: #ed3a859b; */
+         width: 80px;
+         height: 120px;
+         margin: 6px;
+     }
+     .imgset2 .imgs:nth-child(1){
+       width: 180px;
+     }
+     .imgset2 .imgs:nth-child(2){
+       width: 120px;
+     }
+     .imgset3 .imgs:nth-child(3){
+         width: 130px;
+     }
+     .imgset3 .imgs:nth-child(2){
+         width: 170px;
+     }
+     .imgset3 .imgs:nth-child(1){
+         width: 150px;
+     }
+    
+}
+@media screen and (max-width:499px) {
+    .portfolio-section{
+        padding: 8px;
+        margin: 0 auto;
+     }
+     .imgset{
+       justify-content: flex-end;
+         display: flex;
+       
+     }
+     .imgset .imgs {
+         /* background-color: #ed3a859b; */
+         width: 50px;
+         height: 70px;
+         margin: 6px;
+     }
+     .imgset2 .imgs:nth-child(1){
+       width: 70px;
+     }
+     .imgset2 .imgs:nth-child(2){
+       width: 76px;
+     }
+     .imgset3 .imgs:nth-child(3){
+         width: 76px;
+     }
+     .imgset3 .imgs:nth-child(2){
+         width: 150px;
+     }
+     .imgset3 .imgs:nth-child(1){
+         width: 80px;
+     }
+    
+}
+@media  screen and (max-width:768px) {
+    .main .content {
+        margin-top: -10px;
+    }
+    .heroBanner-img{
+      margin-right: 20px;
+    }
+.content{
+    gap: 20px;
+}
+    .content h1 {
+        font-size: 2.2em;
+        max-width: 350px;
+    }
+   
+.content p {
+   font-size: 16px;
+    max-width: 270px;
+}
+   .main .heroBanner-img .vr-lady {
+        position: absolute;
+        width: 270px;
+        height: 270px;
+        top: -60px;
+        right: 10px;
+    }
+   .main .heroBanner-img .linkedin {
+        top: 90px;
+        width: 45px;
+        height: 45px;
+        right: 220px;
+    }
+    
+    .heroBanner-img .comp {
+        width: 40px;
+        height: 40px;
+        top: 125px;
+        right: 77px;
+    }
+    
+    .heroBanner-img .twitter-X {
+        width: 35px;
+        height: 35px;
+        top: 63px;
+        right: 35px;
+    }
+    
+    .heroBanner-img .instagram {
+        width: 40px;
+        height: 40px;
+        top: -35px;
+        right: 187px;
+    }
+    
+    .heroBanner-img .heart {
+        width: 30px;
+        height: 30px;
+        top: 4px;
+        right: 46px;
+    }
+    
+    .heroBanner-img .thumb {
+        width: 37px;
+        height: 37px;
+        top: -25px;
+        right: 18px;
+    }
+    
+    .heroBanner-img .three-emojis {
+        width: 33px;
+        height: 33px;
+        top: -56px;
+        right: 30px;
+        transform: rotate(21deg);
+    }
+   
+    .btn {
+        
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin: 8px;
+        border: none;
+        color: #FFFFFF;
+        /* background-color: white; */
+        font-size: 10px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+    
+    }
+    
+}
+@media screen and (max-width:650px){
+    .heroBanner-img{
+      margin-right: -5px;
+    }
+.content{
+    gap: 30px;
+}
+    .content h1 {
+        font-size: 2em;
+        max-width: 300px;
+    }
+   
+.content p {
+   font-size: 16px;
+    max-width: 270px;
+}
+}
+@media screen and (max-width:576px){
+    .main .content {
+        margin-top: 230px;
+        margin-left: 50px;
+
+    }
+    .heroBanner-img{
+      margin-right: 100px;
+    }
+.content{
+    gap: 30px;
+}
+    .content h1 {
+        font-size: 2.2em;
+        max-width: 350px;
+    }
+   
+.content p {
+   font-size: 16px;
+    max-width: 350px;
+}
+}
+@media screen and (max-width:460px){
+    .main .content {
+        margin-top: 230px;
+        margin-left: 20px;
+
+    }
+    .heroBanner-img{
+      margin-right: 40px;
+    }
+.content{
+    gap: 30px;
+}
+    .content h1 {
+        font-size: 1.9em;
+        max-width: 300px;
+    }
+   
+.content p {
+   font-size: 15px;
+   line-height: 20px;
+    max-width: 300px;
+}
+}
+@media screen and (max-width:353px){
+    .main .content {
+        margin-top: 230px;
+        margin-left: 0px;
+
+    }
+    .heroBanner-img{
+      margin-right: 5px;
+    }
+.content{
+    gap: 30px;
+}
+    .content h1 {
+        font-size: 1.9em;
+        max-width: 300px;
+    }
+   
+.content p {
+   font-size: 15px;
+   line-height: 20px;
+    max-width: 300px;
+}
+.main .content .btns .btn{
+    padding: 10px 10px;
+    font-size: 15px;
+}
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.nav-logo img {
+    height: 40px;
+    /* Adjust as needed */
+}
+
+.nav-toggle {
+    display: none;
+    /* Initially hide the burger menu on larger screens */
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        /* Hide the nav list by default on smaller screens */
+        position: absolute;
+        top: 60px;
+        /* 60px from the top as per requirement */
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to right, #933aed , #b92764ee , #ED3A85  );
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .nav-list.active {
+        display: flex;
+        /* Show the nav list when active */
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+        
+    }
+
+    .nav-toggle {
+        display: block;
+        /* Show the burger menu icon */
+        cursor: pointer;
+
+    }
+
+    .burger-menu {
+        font-size: 25px;
+
+    }
+}
